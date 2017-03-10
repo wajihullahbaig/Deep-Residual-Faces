@@ -45,10 +45,10 @@ Epochs = 294, GPU Tests
 		         
 
 ### Resnet 
-![Residual nets](https://github.com/wajihullahbaig/ResNet-Matconvnet/blob/master/figure/resnet.jpg)
+![Residual nets](https://github.com/wajihullahbaig/Deep-Residual-Faces/blob/master/figures/cacd2000_224x224-norelu-Gsummary.pdf)
 
 ### Resnet-No-reLU 
-![Residual-No-ReLU nets](https://github.com/wajihullahbaig/ResNet-Matconvnet/blob/master/figure/resnet-No-reLU.jpg)
+![Residual-No-ReLU nets](https://github.com/wajihullahbaig/Deep-Residual-Faces/blob/master/figures/cacd2000_224x224-norelu-Gsummary.pdf)
 
 
 # Conclusion
