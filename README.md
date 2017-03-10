@@ -65,9 +65,11 @@ Epochs = 294, GPU Tests
 
 # Conclusion
 There seems to be lesser performance on no-relu networks, although the origianl author of ResNets reports good performance on classification using no-relus. 
-The lesser performance in my tests can be attributed to the fact that there is a very small dataset (300*15 = 4500 images in total). Due to memory contraints, 
-I was limited to a small dataset as I was loading all the dataset into memory before launching the recongition phase them. From the tables and figures it is 
-quite evident that ResNet with ReLUs (50,101,152) are converging much quickly as compared to resnet 18 or 34. 
+The lesser performance in accuracy can in the tests can be attributed to the fact that there is a very small dataset (300*15 = 4500 images in total). 
+Due to memory contraints I was limited to a small dataset as I was loading all the dataset into memory before launching the recongition phase them. 
+If a larger or distributed dataset is used, the performance can vastly be improved.
+
+From the tables and figures it is quite evident that ResNet with ReLUs (50,101,152) are converging much quickly as compared to resnet 18 or 34. 
 
 # Note
 To run the code, please make sure you have MATCONVNET and VLFEAT in the dependencies folder.
