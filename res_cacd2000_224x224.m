@@ -37,7 +37,7 @@ end
 % -------------------------------------------------------------------------
 
 if opts.preActivation ,
-    net = res_cacd2000_224x224_preactivation_init(m) ;
+    %%net = res_cacd2000_224x224_preactivation_init(m) ;
 else
     net = res_cacd2000_224x224_init(m, 'networkType', opts.modelType, ...
         'reLUafterSum', opts.reLUafterSum) ;

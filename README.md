@@ -15,10 +15,12 @@ The files used for face recognition are
 	4. getcacd2000_224x224
 
 ## Network Architecture
-The network architecture followed are inspired both by VGG-19 original deep residual networks.
+The network architecture followed are inspired both by VGG-16 and the original deep residual networks.
 To summarize the general architecture devised for this expriment, the following architure is followed; 
 
 {Input (224,224,3) -> [7x7 Conv,64] -> BatchNorm ->... (64-> 128 -> 256 -> 512)... -> Loss/Predicition layers}
+The second last layer of 512 is fully connected to prediction layer. This means that only for a vector of 512 values, we perform
+a prediction. 
 Please review the code in "res_cacd2000_init.m" to get a better understanding of the actual architecture.    
 The architecture is reasonably accurate to predict the true class (prediction) for the input face. 
 
