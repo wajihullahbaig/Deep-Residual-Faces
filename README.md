@@ -4,7 +4,10 @@ This repository is a clone from the original source (https://github.com/zhanghan
 I have experimented with deep residual networks to see if they can be successfully converted from classifiers to recognizers. Using some old code base (https://github.com/wajihullahbaig/ResNet-Matconvnet) cloned from Zhang's original source code, so you will find some files from the old base where Resnets where used to test MNIST dataset.
 
 I have used the public dataset Cross-Age Reference Coding for Age-Invariant Face Recognition and Retrieval for my tests. The data set was prunned,cleaned and recitifed for a set of 300 individuals with 15 images per individual. The face detection step was achieved using the HeadHunter algorithm (https://bitbucket.org/rodrigob/doppia/) to detect, crop and resize the face images in the subset. 
-Each image is resized to 224x244 pixels and are in RGB format. This notion of face recognition followed is equivalent to t
+Each image is resized to 224x244 pixels and are in RGB format. Each image after being resized was labeled.
+The labeling of the dataset was done using Matlab scripts. The dataset is loaded into a 'imdb' format prior to being processed by the residual networks. 
+
+
 
 # Files for Face Recognition Using ResNets
 The files used for face recognition are
