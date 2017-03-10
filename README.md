@@ -46,7 +46,7 @@ Epochs = 294, GPU Tests
 | Residual-No-reLU 56  | 0.0003       | 0.87       | 
 		         
 
-### Resnet 
+### Resnet-ReLU 
 ![Residual nets](https://github.com/wajihullahbaig/Deep-Residual-Faces/blob/master/figures/resnet-relu.png)
 
 ### Resnet-No-reLU 
