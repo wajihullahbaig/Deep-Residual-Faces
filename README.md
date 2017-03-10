@@ -57,8 +57,9 @@ Epochs = 294, GPU Tests
 There seems to be lesser performance on no-relu networks, although the origianl author of ResNets reports good performance on classification using no-relus. 
 The lesser performance in my tests can be attributed to the fact that there is a very small dataset (300*15 = 4500 images in total). 
 Due to memory contraints, I was limited to a small dataset as I was loading all the dataset into memory before launching the recongition phase them.
-The residual networks with ReLU are performing much better. 
-A whole month was spent producing these results. 
+The residual networks with ReLU are performing much better as compated to the ones with no-ReLUs. 
+
+A whole month was spent producing these results :)  
 
 ## Platform/Dev Environmets/Dependencies etc
 
