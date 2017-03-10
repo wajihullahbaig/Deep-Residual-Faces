@@ -36,11 +36,13 @@ Epochs = 110, GPU Tests
 Epochs = 500, GPU Tests 
 
 | Networks Type        | Train Error  | Test Error |
+| ---------------------|:------------:| ----------:|
 | Residual-No-reLU 20  | 0.0011       | 0.85	   | 
 
 Epochs = 294, GPU Tests 
 
 | Networks Type        | Train Error  | Test Error |
+| ---------------------|:------------:| ----------:|
 | Residual-No-reLU 56  | 0.0003       | 0.87       | 
 		         
 
